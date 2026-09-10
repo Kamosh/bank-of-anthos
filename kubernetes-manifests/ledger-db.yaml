@@ -104,7 +104,7 @@ spec:
               name: postgresdb
               subPath: postgres
       serviceAccount: bank-of-anthos
-      serviceAccountName: default
+      serviceAccountName: bank-of-anthos
       volumes:
         - emptyDir: {}
           name: postgresdb
